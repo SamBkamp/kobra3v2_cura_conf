@@ -22,6 +22,7 @@
             "default_value": "Anycubic Kobra 3 v2"
         },
 	"machine_buildplate_type": { "default_value": "PEI Spring Steel" },
+	"machine_heated_bed": { "default_value": true},
 	"material_bed_temperature":
 	{
 	    "default_value": 60,
@@ -43,7 +44,9 @@
         {
             "maximum_value_warning": 300,
             "value": "material_print_temperature + 5"
-        },	
-	"machine_start_gcode": { "default_value": "TYPE:Custom\nG9111 bedTemp=65 extruderTemp=230\nM117 ;display LCD message\nM900 K0.05 ;linear advance factor, ive only seen this set to k0.05\n;START HEADER\nG21 ; set units to millimeters\nG90 ; use absolute coordinates\nM83 ; use relative distances for extrusion\nT0 ;set or report the current extruder or other tool\nM107 ; turn fan off" }
+        },
+	"material_print_temp_prep": { "default_value": false }
+	"machine_start_gcode_first": { "default_value": true }
+	"machine_start_gcode": { "default_value": "TYPE:Custom\nG9111 bedTemp={material_bed_temperature} extruderTemp={material_print_temperature}\nM117 ;display LCD message\nM900 K0.05 ;linear advance factor, ive only seen this set to k0.05\n;START HEADER\nG21 ; set units to millimeters\nG90 ; use absolute coordinates\nM83 ; use relative distances for extrusion\nT0 ;set or report the current extruder or other tool\nM107 ; turn fan off" }
     }
 }
