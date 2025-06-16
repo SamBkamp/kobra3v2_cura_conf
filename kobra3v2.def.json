@@ -45,8 +45,8 @@
             "maximum_value_warning": 300,
             "value": "material_print_temperature + 5"
         },
-	"material_print_temp_prep": { "default_value": false }
-	"machine_start_gcode_first": { "default_value": true }
+	"material_print_temp_prep": { "default_value": false },
+	"machine_start_gcode_first": { "default_value": true },
 	"machine_start_gcode": { "default_value": "TYPE:Custom\nG9111 bedTemp={material_bed_temperature} extruderTemp={material_print_temperature}\nM117 ;display LCD message\nM900 K0.05 ;linear advance factor, ive only seen this set to k0.05\n;START HEADER\nG21 ; set units to millimeters\nG90 ; use absolute coordinates\nM83 ; use relative distances for extrusion\nT0 ;set or report the current extruder or other tool\nM107 ; turn fan off" }
     }
 }
