@@ -8,7 +8,7 @@
         "author": "Sam Bonnekamp",
         "manufacturer": "AnyCubic",
         "file_formats": "text/x-gcode",
-        "platform": "anycubic_kobra2_platform.stl",
+        "platform": "anycubick3_plate.STL",
         "machine_extruder_trains": { "0": "anycubic_kobra3v2_extruder_0" }
     },
     "overrides":
@@ -20,19 +20,18 @@
         {            
             "description": "Anycubic Kobra 3 v2",
             "default_value": "Anycubic Kobra 3 v2"
-        }
-	"machine_buildplate_type": { "default_value": "PEI Spring Steel" }
+        },
+	"machine_buildplate_type": { "default_value": "PEI Spring Steel" },
 	"material_bed_temperature":
 	{
 	    "default_value": 60,
 	    "maximum_value": "110",
 	    "maximum_value_warning": "90"	    
-	}	
+	},	
         "material_print_temp_wait": { "value": true },
 	"machine_center_is_zero": { "default_value": false },
 	"layer_height": { "default_value": 0.2 },
         "speed_slowdown_layers": { "value": 2 },
-	"material_bed_temperature": { "maximum_value_warning": 110 },
 	"material_diameter": { "default_value": 1.75 },
 	"material_initial_print_temperature":
         {
