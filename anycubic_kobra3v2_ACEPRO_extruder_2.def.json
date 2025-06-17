@@ -4,8 +4,8 @@
     "inherits": "fdmextruder",
     "metadata":
     {
-        "machine": "kobra3v2_ACE_PRO",
-        "position": "1"
+        "machine": "anycubic_kobra3v2_ACE_PRO",
+        "position": "2"
     },
     "overrides":
     {
