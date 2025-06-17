@@ -1,11 +1,11 @@
 {
     "version": 2,
-    "name": "Extruder 1",
+    "name": "ACE Pro Colour 4",
     "inherits": "fdmextruder",
     "metadata":
     {
-        "machine": "anycubic_kobra3v2",
-        "position": "0"
+        "machine": "kobra3v2_ACE_PRO",
+        "position": "3"
     },
     "overrides":
     {
