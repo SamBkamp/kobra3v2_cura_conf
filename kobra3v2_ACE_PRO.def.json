@@ -9,11 +9,13 @@
         "manufacturer": "Anycubic",
         "file_formats": "text/x-gcode",
         "platform": "anycubic_kobra3v2_buildplate.STL",
+        "has_materials": true,
+        "has_machine_quality": true,
         "machine_extruder_trains": {
 	    "0": "anycubic_kobra3v2_extruder_0",
-	    "1": "anycubic_kobra3v2_extruder_0",
-	    "2": "anycubic_kobra3v2_extruder_0",
-	    "3": "anycubic_kobra3v2_extruder_0"
+	    "1": "anycubic_kobra3v2_extruder_1",
+	    "2": "anycubic_kobra3v2_extruder_2",
+	    "3": "anycubic_kobra3v2_extruder_3"
 	}
     },
     "overrides":
@@ -26,6 +28,7 @@
             "description": "Anycubic Kobra 3 v2",
             "default_value": "Anycubic Kobra 3 v2"
         },
+        "machine_extruder_count": { "default_value": 4 },
 	"machine_buildplate_type": { "default_value": "PEI Spring Steel" },
 	"machine_heated_bed": { "default_value": true},
 	"material_bed_temperature":
