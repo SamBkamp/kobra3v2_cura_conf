@@ -27,21 +27,10 @@
 	"material_bed_temperature":
 	{	    "maximum_value": "110",
 	    "maximum_value_warning": "90"	    
-	},	
-        "default_material_print_temperature":
-	{
-	    "maximum_value": 300,
-	    "default_value": 210
 	},
-        "material_print_temperature":
-	{
-	    "maximum_value": 300,
-	    "default_value": 210
-	},
-        "material_print_temp_wait": { "value": true },
+        "material_print_temperature":{ "maximum_value": 300 },
 	"machine_center_is_zero": { "default_value": false },
 	"layer_height": { "default_value": 0.2 },
-        "speed_slowdown_layers": { "value": 2 },
 	"material_diameter": { "default_value": 1.75 },
 	"material_initial_print_temperature":
         {
