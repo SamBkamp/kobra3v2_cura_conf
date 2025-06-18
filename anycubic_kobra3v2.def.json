@@ -8,7 +8,7 @@
         "author": "Sam Bonnekamp",
         "manufacturer": "Anycubic",
         "file_formats": "text/x-gcode",
-        "platform": "anycubic_kobra3v2_buildplate.STL",
+        "platform": "anycubic_kobra3v2_buildplate.stl",
         "machine_extruder_trains": { "0": "anycubic_kobra3v2_extruder_0" }
     },
     "overrides":
